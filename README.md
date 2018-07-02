@@ -80,17 +80,39 @@ aceptamos todos los permisos que nos pida
 
 ![goo1](https://github.com/NXTIoT/Sigfox_y_google_sheets/blob/master/imagenes/goo10.png?raw=true)
 
+una vez implementado exitosamente, nos presentará la URL de nuestra aplicación web, donde tendremos que copiar el ID, el cual necesitamos para configurar nuestro 
+callback
+
 ![goo1](https://github.com/NXTIoT/Sigfox_y_google_sheets/blob/master/imagenes/goo11.png?raw=true)
+
+antes de realizar el callback, verificaremos que nuestra aplicación esté bien implementada. Copiamos y pegamos el siguiente link de prueba en nuestro navegador cuidando de poner las mismas variables que en nuestra hoja de calculo.
+
+-	https://script.google.com/macros/s/ID_DE_TU_APLICACION/exec?timestamp=20170101&device=ABCDEF&dato=1234AB&temperatura=2.444&humedad=20.12
+
+si nuestra aplicación esta bien implementada, en nuestro navegador nos aparecerá lo siguiente:
 
 ![goo1](https://github.com/NXTIoT/Sigfox_y_google_sheets/blob/master/imagenes/goo12.png?raw=true)
 
-![goo1](https://github.com/NXTIoT/Sigfox_y_google_sheets/blob/master/imagenes/goo13.png?raw=true)
+y en nuestra hoja de calculo aparecerá un nuevo renglón con la información que pusimos en el link de prueba
 
 ![goo1](https://github.com/NXTIoT/Sigfox_y_google_sheets/blob/master/imagenes/goo13.png?raw=true)
+
+abrimos nuestra cuenta del backend para configurar el callback. Realizamos la siguiente configuracion:
+
+-	Type: DATA - UPLINK
+-	Channel: URL
+-	Url pattern: https://script.google.com/macros/s/ID_DE_TU_APLICACION/exec?timestamp={time}&device={device}&dato={data}&temperatura={customData#temp}&humedad={customData#humedad} 
+-	Use HTTP method: GET
+
+en el URL pegamos el ID de nuestra aplicacion. Damos click en "OK"
 
 ![goo1](https://github.com/NXTIoT/Sigfox_y_google_sheets/blob/master/imagenes/goo14.png?raw=true)
 
+enviamos mensajes con nuestro dispositivo
+
 ![goo1](https://github.com/NXTIoT/Sigfox_y_google_sheets/blob/master/imagenes/goo15.png?raw=true)
+
+y en nuestra hoja de calculo aparecerán nuevos renglones con la informacion de cada uno de los mensajes que se reciban en el backend
 
 ![goo1](https://github.com/NXTIoT/Sigfox_y_google_sheets/blob/master/imagenes/goo16.png?raw=true)
 
