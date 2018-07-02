@@ -17,7 +17,7 @@ ahora abrimos una nueva hoja de cálculo, que será donde se estarán enviando l
 
 escribimos en el primer renglón de nuestra hoja de calculo las variables que deseemos enviar. En este caso las variables que se enviarán son:
 
--	timestamp
+-	timestamp (formato epoch)
 -	device
 -	dato
 -	temperatura
