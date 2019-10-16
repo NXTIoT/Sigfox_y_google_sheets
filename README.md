@@ -70,6 +70,10 @@ escribimos un nombre a nuestro proyecto
 
 ![goo1](https://github.com/NXTIoT/Sigfox_y_google_sheets/blob/master/imagenes/goo6.png?raw=true)
 
+seleccionamos en la opcion ""
+
+![goo1](https://github.com/NXTIoT/Sigfox_y_google_sheets/blob/master/imagenes/goo30.png?raw=true)
+
 aceptamos todos los permisos que nos pida
 
 ![goo1](https://github.com/NXTIoT/Sigfox_y_google_sheets/blob/master/imagenes/goo7.png?raw=true)
