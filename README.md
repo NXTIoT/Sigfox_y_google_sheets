@@ -70,9 +70,9 @@ escribimos un nombre a nuestro proyecto
 
 ![goo1](https://github.com/NXTIoT/Sigfox_y_google_sheets/blob/master/imagenes/goo6.png?raw=true)
 
-seleccionamos en la opcion ""
+seleccionamos "Cualquiera, incluso anonimo" en la opcion "Quien tiene acceso a la app"
 
-![goo1](https://github.com/NXTIoT/Sigfox_y_google_sheets/blob/master/imagenes/goo30.png?raw=true)
+![goo1](https://github.com/NXTIoT/Sigfox_y_google_sheets/blob/master/imagenes/goo31.png?raw=true)
 
 aceptamos todos los permisos que nos pida
 
@@ -111,7 +111,7 @@ abrimos nuestra cuenta del backend para configurar el callback. Realizamos la si
 
 en el URL pegamos el ID de nuestra aplicacion. Damos click en "OK"
 
-![goo1](https://github.com/NXTIoT/Sigfox_y_google_sheets/blob/master/imagenes/goo14.png?raw=true)
+![goo1](https://github.com/NXTIoT/Sigfox_y_google_sheets/blob/master/imagenes/goo30.png?raw=true)
 
 enviamos mensajes con nuestro dispositivo
 
