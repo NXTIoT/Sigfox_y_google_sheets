@@ -103,6 +103,7 @@ abrimos nuestra cuenta del backend para configurar el callback. Realizamos la si
 -	Channel: URL
 -	Url pattern: https://script.google.com/macros/s/ID_DE_TU_APLICACION/exec?timestamp={time}&device={device}&dato={data}&temperatura={customData#temp}&humedad={customData#humedad} 
 -	Use HTTP method: GET
+-	Habilitar la opcion "Send SNI"
 
 en el URL pegamos el ID de nuestra aplicacion. Damos click en "OK"
 
